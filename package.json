@@ -7,11 +7,12 @@
     "dev": "tsx watch src/server.ts",
     "knex": "node --import tsx ./node_modules/.bin/knex"
   },
-  "author": "Rodrigo",
+  "author": "John Frank",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^22.2.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
